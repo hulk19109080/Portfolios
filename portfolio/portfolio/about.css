@@ -1,0 +1,110 @@
+section.about .about-img {
+  position: relative;
+}
+section.about .about-img:before {
+  content: "";
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -10%;
+  left: -10%;
+  z-index: 0;
+}
+section.about .about-img img {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  -webkit-box-shadow: 0 0 85px 0 rgba(0, 0, 0, 0.14);
+  box-shadow: 0 0 85px 0 rgba(0, 0, 0, 0.14);
+}
+
+section.about .about-content .about-heading {
+  margin-bottom: 20px;
+}
+section.about .about-content .about-heading h2 {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+section.about .about-content .about-heading span {
+  font-family: "Raleway", san-serif;
+  color: #222;
+  font-size: 19px;
+}
+
+section.about .about-content p {
+  line-height: 28px;
+}
+
+section.about .about-content .social-icons {
+  margin-top: 30px;
+}
+section.about .about-content .social-icons a {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  margin-right: 10px;
+  background-color: #222;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid #222;
+  width: 30px;
+  height: 30px;
+  -webkit-transition: 0.2s all ease;
+  -o-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+}
+section.about .about-content .social-icons a .fa {
+  color: #fff;
+  -webkit-transition: 0.2s all ease;
+  -o-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+}
+section.about .about-content .social-icons a:hover {
+  border: 2px solid #222;
+  background: transparent;
+  line-height: 26px;
+}
+section.about .about-content .social-icons a:hover .fa {
+  color: #222;
+}
+
+section.about .about-content .about-button {
+  margin-top: 40px;
+}
+
+/*============ 6. Services Section ============*/
+#about img {
+  width: 100%;
+}
+#about {
+  width: 60vw;
+  margin: auto;
+ 
+}
+footer{
+    margin-top: 100px;
+}
+.main-btn {
+  display: inline-block;
+  background-color: #222;
+  padding: 10px 20px;
+  border: 2px solid #222;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: 0.2s background-color ease;
+  -o-transition: 0.2s background-color ease;
+  transition: 0.2s background-color ease;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.main-btn:hover {
+  color: #222;
+  background-color: transparent;
+}
+.about-button {
+  margin-top: 80px;
+}
